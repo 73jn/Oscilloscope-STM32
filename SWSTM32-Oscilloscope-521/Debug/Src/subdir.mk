@@ -6,7 +6,6 @@
 C_SRCS += \
 ../Src/main.c \
 ../Src/stm32f7xx_hal_msp.c \
-../Src/stm32f7xx_hal_timebase_tim.c \
 ../Src/stm32f7xx_it.c \
 ../Src/syscalls.c \
 ../Src/system_stm32f7xx.c 
@@ -18,7 +17,6 @@ OBJS += \
 ./Src/isrs.o \
 ./Src/main.o \
 ./Src/stm32f7xx_hal_msp.o \
-./Src/stm32f7xx_hal_timebase_tim.o \
 ./Src/stm32f7xx_it.o \
 ./Src/syscalls.o \
 ./Src/system_stm32f7xx.o 
@@ -26,7 +24,6 @@ OBJS += \
 C_DEPS += \
 ./Src/main.d \
 ./Src/stm32f7xx_hal_msp.d \
-./Src/stm32f7xx_hal_timebase_tim.d \
 ./Src/stm32f7xx_it.d \
 ./Src/syscalls.d \
 ./Src/system_stm32f7xx.d 

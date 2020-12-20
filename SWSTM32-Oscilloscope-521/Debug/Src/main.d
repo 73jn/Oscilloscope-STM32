@@ -46,7 +46,12 @@ Src/main.o: ../Src/main.c \
  C:/Users/jeann/cpp/Oscilloscope-work-521/SWSTM32-Oscilloscope-521/Drivers/STM32F7xx_HAL_Driver/Inc/stm32f7xx_hal_tim.h \
  C:/Users/jeann/cpp/Oscilloscope-work-521/SWSTM32-Oscilloscope-521/Drivers/STM32F7xx_HAL_Driver/Inc/stm32f7xx_hal_tim_ex.h \
  C:/Users/jeann/cpp/Oscilloscope-work-521/SWSTM32-Oscilloscope-521/Drivers/STM32F7xx_HAL_Driver/Inc/stm32f7xx_hal_uart.h \
- C:/Users/jeann/cpp/Oscilloscope-work-521/SWSTM32-Oscilloscope-521/Drivers/STM32F7xx_HAL_Driver/Inc/stm32f7xx_hal_uart_ex.h
+ C:/Users/jeann/cpp/Oscilloscope-work-521/SWSTM32-Oscilloscope-521/Drivers/STM32F7xx_HAL_Driver/Inc/stm32f7xx_hal_uart_ex.h \
+ C:/Users/jeann/cpp/Oscilloscope-work-521/work/RealtimeOscilloscope/src/app/factory.h \
+ C:/Users/jeann/cpp/Oscilloscope-work-521/work/RealtimeOscilloscope/src/xf/include/xf/xf.h \
+ C:/Users/jeann/cpp/Oscilloscope-work-521/work/RealtimeOscilloscope/src/config/xf-config.h \
+ C:/Users/jeann/cpp/Oscilloscope-work-521/work/RealtimeOscilloscope/src/config/xf-port-config.h \
+ C:/Users/jeann/cpp/Oscilloscope-work-521/work/RealtimeOscilloscope/src/xf/port/default-idf/eventqueue-default.h
 
 C:/Users/jeann/cpp/Oscilloscope-work-521/SWSTM32-Oscilloscope-521/Inc/main.h:
 
@@ -143,3 +148,13 @@ C:/Users/jeann/cpp/Oscilloscope-work-521/SWSTM32-Oscilloscope-521/Drivers/STM32F
 C:/Users/jeann/cpp/Oscilloscope-work-521/SWSTM32-Oscilloscope-521/Drivers/STM32F7xx_HAL_Driver/Inc/stm32f7xx_hal_uart.h:
 
 C:/Users/jeann/cpp/Oscilloscope-work-521/SWSTM32-Oscilloscope-521/Drivers/STM32F7xx_HAL_Driver/Inc/stm32f7xx_hal_uart_ex.h:
+
+C:/Users/jeann/cpp/Oscilloscope-work-521/work/RealtimeOscilloscope/src/app/factory.h:
+
+C:/Users/jeann/cpp/Oscilloscope-work-521/work/RealtimeOscilloscope/src/xf/include/xf/xf.h:
+
+C:/Users/jeann/cpp/Oscilloscope-work-521/work/RealtimeOscilloscope/src/config/xf-config.h:
+
+C:/Users/jeann/cpp/Oscilloscope-work-521/work/RealtimeOscilloscope/src/config/xf-port-config.h:
+
+C:/Users/jeann/cpp/Oscilloscope-work-521/work/RealtimeOscilloscope/src/xf/port/default-idf/eventqueue-default.h:

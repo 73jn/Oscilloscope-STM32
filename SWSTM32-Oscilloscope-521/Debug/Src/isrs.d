@@ -45,7 +45,27 @@ Src/isrs.o: ../Src/isrs.cpp \
  C:/Users/jeann/cpp/Oscilloscope-work-521/SWSTM32-Oscilloscope-521/Drivers/STM32F7xx_HAL_Driver/Inc/stm32f7xx_hal_tim.h \
  C:/Users/jeann/cpp/Oscilloscope-work-521/SWSTM32-Oscilloscope-521/Drivers/STM32F7xx_HAL_Driver/Inc/stm32f7xx_hal_tim_ex.h \
  C:/Users/jeann/cpp/Oscilloscope-work-521/SWSTM32-Oscilloscope-521/Drivers/STM32F7xx_HAL_Driver/Inc/stm32f7xx_hal_uart.h \
- C:/Users/jeann/cpp/Oscilloscope-work-521/SWSTM32-Oscilloscope-521/Drivers/STM32F7xx_HAL_Driver/Inc/stm32f7xx_hal_uart_ex.h
+ C:/Users/jeann/cpp/Oscilloscope-work-521/SWSTM32-Oscilloscope-521/Drivers/STM32F7xx_HAL_Driver/Inc/stm32f7xx_hal_uart_ex.h \
+ c:\users\jeann\cpp\oscilloscope-work-521\work\realtimeoscilloscope\src\platform\f7-disco-gcc\board\buttonscontroller.h \
+ C:/Users/jeann/cpp/Oscilloscope-work-521/work/RealtimeOscilloscope/src/config/buttonscontroller-config.h \
+ c:\users\jeann\cpp\oscilloscope-work-521\work\realtimeoscilloscope\src\platform\f7-disco-gcc\board\interface/buttonirq.h \
+ C:/Users/jeann/cpp/Oscilloscope-work-521/work/RealtimeOscilloscope/src/xf/include/xf/behavior.h \
+ C:/Users/jeann/cpp/Oscilloscope-work-521/work/RealtimeOscilloscope/src/xf/include/xf/interface/reactive.h \
+ C:/Users/jeann/cpp/Oscilloscope-work-521/work/RealtimeOscilloscope/src/xf/include/xf/event.h \
+ C:/Users/jeann/cpp/Oscilloscope-work-521/work/RealtimeOscilloscope/src/xf/include/xf/eventstatus.h \
+ C:/Users/jeann/cpp/Oscilloscope-work-521/work/RealtimeOscilloscope/src/xf/include/xf/interface/dispatcher.h \
+ C:/Users/jeann/cpp/Oscilloscope-work-521/work/RealtimeOscilloscope/src/xf/include/xf/initialevent.h \
+ C:/Users/jeann/cpp/Oscilloscope-work-521/work/RealtimeOscilloscope/src/xf/include/xf/nulltransition.h \
+ C:/Users/jeann/cpp/Oscilloscope-work-521/work/RealtimeOscilloscope/src/xf/include/xf/xf.h \
+ C:/Users/jeann/cpp/Oscilloscope-work-521/work/RealtimeOscilloscope/src/config/xf-config.h \
+ C:/Users/jeann/cpp/Oscilloscope-work-521/work/RealtimeOscilloscope/src/config/xf-port-config.h \
+ C:/Users/jeann/cpp/Oscilloscope-work-521/work/RealtimeOscilloscope/src/xf/port/default-idf/eventqueue-default.h \
+ C:/Users/jeann/cpp/Oscilloscope-work-521/work/RealtimeOscilloscope/src/xf/include/xf/interface/eventqueue.h \
+ C:/Users/jeann/cpp/Oscilloscope-work-521/work/RealtimeOscilloscope/src/xf/port/default-idf/mutex-default.h \
+ C:/Users/jeann/cpp/Oscilloscope-work-521/work/RealtimeOscilloscope/src/xf/include/xf/interface/mutex.h \
+ C:/Users/jeann/cpp/Oscilloscope-work-521/work/RealtimeOscilloscope/src/xf/include/xf/timeout.h \
+ c:\users\jeann\cpp\oscilloscope-work-521\work\realtimeoscilloscope\src\platform\f7-disco-gcc\board\interface/buttonscontrollercallbackcaller.h \
+ c:\users\jeann\cpp\oscilloscope-work-521\work\realtimeoscilloscope\src\platform\f7-disco-gcc\board\interface/buttonscontrollercallbackprovider.h
 
 C:/Users/jeann/cpp/Oscilloscope-work-521/SWSTM32-Oscilloscope-521/Drivers/STM32F7xx_HAL_Driver/Inc/stm32f7xx_hal.h:
 
@@ -140,3 +160,43 @@ C:/Users/jeann/cpp/Oscilloscope-work-521/SWSTM32-Oscilloscope-521/Drivers/STM32F
 C:/Users/jeann/cpp/Oscilloscope-work-521/SWSTM32-Oscilloscope-521/Drivers/STM32F7xx_HAL_Driver/Inc/stm32f7xx_hal_uart.h:
 
 C:/Users/jeann/cpp/Oscilloscope-work-521/SWSTM32-Oscilloscope-521/Drivers/STM32F7xx_HAL_Driver/Inc/stm32f7xx_hal_uart_ex.h:
+
+c:\users\jeann\cpp\oscilloscope-work-521\work\realtimeoscilloscope\src\platform\f7-disco-gcc\board\buttonscontroller.h:
+
+C:/Users/jeann/cpp/Oscilloscope-work-521/work/RealtimeOscilloscope/src/config/buttonscontroller-config.h:
+
+c:\users\jeann\cpp\oscilloscope-work-521\work\realtimeoscilloscope\src\platform\f7-disco-gcc\board\interface/buttonirq.h:
+
+C:/Users/jeann/cpp/Oscilloscope-work-521/work/RealtimeOscilloscope/src/xf/include/xf/behavior.h:
+
+C:/Users/jeann/cpp/Oscilloscope-work-521/work/RealtimeOscilloscope/src/xf/include/xf/interface/reactive.h:
+
+C:/Users/jeann/cpp/Oscilloscope-work-521/work/RealtimeOscilloscope/src/xf/include/xf/event.h:
+
+C:/Users/jeann/cpp/Oscilloscope-work-521/work/RealtimeOscilloscope/src/xf/include/xf/eventstatus.h:
+
+C:/Users/jeann/cpp/Oscilloscope-work-521/work/RealtimeOscilloscope/src/xf/include/xf/interface/dispatcher.h:
+
+C:/Users/jeann/cpp/Oscilloscope-work-521/work/RealtimeOscilloscope/src/xf/include/xf/initialevent.h:
+
+C:/Users/jeann/cpp/Oscilloscope-work-521/work/RealtimeOscilloscope/src/xf/include/xf/nulltransition.h:
+
+C:/Users/jeann/cpp/Oscilloscope-work-521/work/RealtimeOscilloscope/src/xf/include/xf/xf.h:
+
+C:/Users/jeann/cpp/Oscilloscope-work-521/work/RealtimeOscilloscope/src/config/xf-config.h:
+
+C:/Users/jeann/cpp/Oscilloscope-work-521/work/RealtimeOscilloscope/src/config/xf-port-config.h:
+
+C:/Users/jeann/cpp/Oscilloscope-work-521/work/RealtimeOscilloscope/src/xf/port/default-idf/eventqueue-default.h:
+
+C:/Users/jeann/cpp/Oscilloscope-work-521/work/RealtimeOscilloscope/src/xf/include/xf/interface/eventqueue.h:
+
+C:/Users/jeann/cpp/Oscilloscope-work-521/work/RealtimeOscilloscope/src/xf/port/default-idf/mutex-default.h:
+
+C:/Users/jeann/cpp/Oscilloscope-work-521/work/RealtimeOscilloscope/src/xf/include/xf/interface/mutex.h:
+
+C:/Users/jeann/cpp/Oscilloscope-work-521/work/RealtimeOscilloscope/src/xf/include/xf/timeout.h:
+
+c:\users\jeann\cpp\oscilloscope-work-521\work\realtimeoscilloscope\src\platform\f7-disco-gcc\board\interface/buttonscontrollercallbackcaller.h:
+
+c:\users\jeann\cpp\oscilloscope-work-521\work\realtimeoscilloscope\src\platform\f7-disco-gcc\board\interface/buttonscontrollercallbackprovider.h:

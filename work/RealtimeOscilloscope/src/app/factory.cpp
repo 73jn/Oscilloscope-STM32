@@ -5,6 +5,8 @@
 
 extern "C" TIM_HandleTypeDef htim1;         // Defined in main.c
 extern "C" ADC_HandleTypeDef hadc3;         // Defined in main.c
+#define ADC_VALUES_BUFFER_SIZE 1000
+extern unsigned short int adcValuesBuffer[ADC_VALUES_BUFFER_SIZE];
 
 oscilloscope::Controller Factory::_oscilloscopeController;
 oscilloscope::Gui Factory::_gui;
@@ -30,7 +32,7 @@ Factory::Factory()
 // static
 void Factory::initialize()
 {
-    //getOscilloscopeController().initialize(getGui(), adcValuesBuffer, ADC_VALUES_BUFFER_SIZE);
+    getOscilloscopeController().initialize(getGui(), adcValuesBuffer, ADC_VALUES_BUFFER_SIZE);
     getGui().initialize();
     getFrequencyGenerator().initialize();
     getFreqGenController().initialize(getGui());

@@ -74,6 +74,9 @@ mdw/ugfx/src/gdisp/mcufont/mf_font.o: \
  C:/Users/jeann/cpp/Oscilloscope-work-521/work/RealtimeOscilloscope/src/mdw/ugfx/src/gdisp/mcufont/mf_bwfont.h \
  C:/Users/jeann/cpp/Oscilloscope-work-521/work/RealtimeOscilloscope/src/mdw/ugfx/src/gdisp/mcufont/mf_scaledfont.h \
  C:/Users/jeann/cpp/Oscilloscope-work-521/work/RealtimeOscilloscope/src/mdw/ugfx/src/gdisp/fonts/fonts.h \
+ C:/Users/jeann/cpp/Oscilloscope-work-521/work/RealtimeOscilloscope/src/mdw/ugfx/src/gdisp/fonts/UI2.c \
+ C:/Users/jeann/cpp/Oscilloscope-work-521/work/RealtimeOscilloscope/src/mdw/ugfx/src/gdisp/mcufont/mf_rlefont.h \
+ C:/Users/jeann/cpp/Oscilloscope-work-521/work/RealtimeOscilloscope/src/mdw/ugfx/src/gdisp/mcufont/mf_scaledfont.h \
  C:/Users/jeann/cpp/Oscilloscope-work-521/work/RealtimeOscilloscope/src/ui-gen/userfonts.h
 
 C:/Users/jeann/cpp/Oscilloscope-work-521/work/RealtimeOscilloscope/src/mdw/ugfx/src/gdisp/mcufont/mf_config.h:
@@ -223,5 +226,11 @@ C:/Users/jeann/cpp/Oscilloscope-work-521/work/RealtimeOscilloscope/src/mdw/ugfx/
 C:/Users/jeann/cpp/Oscilloscope-work-521/work/RealtimeOscilloscope/src/mdw/ugfx/src/gdisp/mcufont/mf_scaledfont.h:
 
 C:/Users/jeann/cpp/Oscilloscope-work-521/work/RealtimeOscilloscope/src/mdw/ugfx/src/gdisp/fonts/fonts.h:
+
+C:/Users/jeann/cpp/Oscilloscope-work-521/work/RealtimeOscilloscope/src/mdw/ugfx/src/gdisp/fonts/UI2.c:
+
+C:/Users/jeann/cpp/Oscilloscope-work-521/work/RealtimeOscilloscope/src/mdw/ugfx/src/gdisp/mcufont/mf_rlefont.h:
+
+C:/Users/jeann/cpp/Oscilloscope-work-521/work/RealtimeOscilloscope/src/mdw/ugfx/src/gdisp/mcufont/mf_scaledfont.h:
 
 C:/Users/jeann/cpp/Oscilloscope-work-521/work/RealtimeOscilloscope/src/ui-gen/userfonts.h:
