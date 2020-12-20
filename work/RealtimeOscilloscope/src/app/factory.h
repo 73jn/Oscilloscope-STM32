@@ -20,7 +20,7 @@ using external::FrequencyGenerator;
 class Factory
 {
 public:
-	#define ADC_VALUES_BUFFER_SIZE 1600
+	#define ADC_VALUES_BUFFER_SIZE 800
 	static unsigned short int adcValuesBuffer[ADC_VALUES_BUFFER_SIZE];
     Factory();                          ///< Constructor
 

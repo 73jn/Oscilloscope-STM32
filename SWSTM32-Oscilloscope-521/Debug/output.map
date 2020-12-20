@@ -28891,7 +28891,7 @@ LOAD c:/ac6/systemworkbench/plugins/fr.ac6.mcu.externaltools.arm-none.win32_1.17
  .igot.plt      0x200000a4        0x0 c:/ac6/systemworkbench/plugins/fr.ac6.mcu.externaltools.arm-none.win32_1.17.0.201812190825/tools/compiler/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v7e-m/fpv4-sp/hard/crtbegin.o
                 0x200000a4                . = ALIGN (0x4)
 
-.bss            0x200000a4    0x139dc load address 0x08013f88
+.bss            0x200000a4    0x12d5c load address 0x08013f88
                 0x200000a4                _sbss = .
                 0x200000a4                __bss_start__ = _sbss
  *(.bss)
@@ -28902,125 +28902,125 @@ LOAD c:/ac6/systemworkbench/plugins/fr.ac6.mcu.externaltools.arm-none.win32_1.17
  .bss           0x200000cc        0xc Src/stm32f7xx_hal_msp.o
  .bss           0x200000d8        0x8 Src/syscalls.o
                 0x200000dc                __env
- .bss           0x200000e0      0xd64 app/factory.o
+ .bss           0x200000e0      0x724 app/factory.o
                 0x200000e0                Factory::_oscilloscopeController
                 0x2000010c                Factory::_gui
                 0x20000124                Factory::_fgen
                 0x2000012c                Factory::_fgenctrl
                 0x20000148                Factory::_bc
                 0x200001c4                Factory::adcValuesBuffer
- .bss           0x20000e44        0x4 app/freqgencontroller.o
-                0x20000e44                oscilloscope::FreqGenController::_instance
- .bss           0x20000e48      0x830 app/gui.o
-                0x20000e48                oscilloscope::gl
- .bss           0x20001678      0xd14 app/oscilloscopecontroller.o
-                0x20001678                oscilloscope::Controller::_tdivOptions
-                0x20001704                oscilloscope::Controller::_pInstance
- .bss           0x2000238c        0x4 mdw/ext-freqgen/frequencygenerator.o
-                0x2000238c                external::FrequencyGenerator::_instance
- .bss           0x20002390       0x60 mdw/ugfx/boards/base/STM32F746-Discovery/stm32f746g_discovery_sdram.o
- .bss           0x200023f0        0x4 mdw/ugfx/src/gdisp/gdisp_fonts.o
- .bss           0x200023f4        0x8 mdw/ugfx/src/gdriver/gdriver.o
- .bss           0x200023fc      0x204 mdw/ugfx/src/gevent/gevent.o
- .bss           0x20002600       0x60 mdw/ugfx/src/gfile/gfile.o
- .bss           0x20002660        0x1 mdw/ugfx/src/gfx.o
- *fill*         0x20002661        0x3 
- .bss           0x20002664       0x1c mdw/ugfx/src/ginput/ginput_mouse.o
- .bss           0x20002680     0xfa04 mdw/ugfx/src/gos/gos_x_heap.o
- .bss           0x20012084       0x28 mdw/ugfx/src/gos/gos_x_threads.o
- .bss           0x200120ac     0x1014 mdw/ugfx/src/gtimer/gtimer.o
- .bss           0x200130c0        0x8 mdw/ugfx/src/gwin/gwin.o
- .bss           0x200130c8       0x30 mdw/ugfx/src/gwin/gwin_widget.o
- .bss           0x200130f8       0x29 mdw/ugfx/src/gwin/gwin_wm.o
- *fill*         0x20013121        0x3 
- .bss           0x20013124       0x1c platform/f7-disco-gcc/board/buttonscontroller.o
-                0x2001313c                ButtonsController::_pInstance
- .bss           0x20013140      0x18f platform/f7-disco-gcc/board/trace.o
- *fill*         0x200132cf        0x1 
- .bss           0x200132d0        0x8 platform/f7-disco-gcc/mcu/critical/critical.o
-                0x200132d0                bInISR
-                0x200132d4                bOMEnterCriticalRegionNested
- .bss           0x200132d8        0xf platform/f7-disco-gcc/mcu/hal/uart.o
-                0x200132d8                Uart::_sUart
-                0x200132e4                Uart::_sInitialized
- *fill*         0x200132e7        0x1 
- .bss           0x200132e8       0x18 ui-gen/resources_manager.o
- .bss           0x20013300       0x4c xf/port/default/resourcefactory-default.o
- .bss           0x2001334c       0x1c xf/port/default/timeoutmanager-default.o
- .bss           0x20013368        0x2 xf/port/default/xf-default.o
-                0x20013368                XF::_bInitialized
+ .bss           0x20000804        0x4 app/freqgencontroller.o
+                0x20000804                oscilloscope::FreqGenController::_instance
+ .bss           0x20000808      0x830 app/gui.o
+                0x20000808                oscilloscope::gl
+ .bss           0x20001038      0x6d4 app/oscilloscopecontroller.o
+                0x20001038                oscilloscope::Controller::_tdivOptions
+                0x200010c4                oscilloscope::Controller::_pInstance
+ .bss           0x2000170c        0x4 mdw/ext-freqgen/frequencygenerator.o
+                0x2000170c                external::FrequencyGenerator::_instance
+ .bss           0x20001710       0x60 mdw/ugfx/boards/base/STM32F746-Discovery/stm32f746g_discovery_sdram.o
+ .bss           0x20001770        0x4 mdw/ugfx/src/gdisp/gdisp_fonts.o
+ .bss           0x20001774        0x8 mdw/ugfx/src/gdriver/gdriver.o
+ .bss           0x2000177c      0x204 mdw/ugfx/src/gevent/gevent.o
+ .bss           0x20001980       0x60 mdw/ugfx/src/gfile/gfile.o
+ .bss           0x200019e0        0x1 mdw/ugfx/src/gfx.o
+ *fill*         0x200019e1        0x3 
+ .bss           0x200019e4       0x1c mdw/ugfx/src/ginput/ginput_mouse.o
+ .bss           0x20001a00     0xfa04 mdw/ugfx/src/gos/gos_x_heap.o
+ .bss           0x20011404       0x28 mdw/ugfx/src/gos/gos_x_threads.o
+ .bss           0x2001142c     0x1014 mdw/ugfx/src/gtimer/gtimer.o
+ .bss           0x20012440        0x8 mdw/ugfx/src/gwin/gwin.o
+ .bss           0x20012448       0x30 mdw/ugfx/src/gwin/gwin_widget.o
+ .bss           0x20012478       0x29 mdw/ugfx/src/gwin/gwin_wm.o
+ *fill*         0x200124a1        0x3 
+ .bss           0x200124a4       0x1c platform/f7-disco-gcc/board/buttonscontroller.o
+                0x200124bc                ButtonsController::_pInstance
+ .bss           0x200124c0      0x18f platform/f7-disco-gcc/board/trace.o
+ *fill*         0x2001264f        0x1 
+ .bss           0x20012650        0x8 platform/f7-disco-gcc/mcu/critical/critical.o
+                0x20012650                bInISR
+                0x20012654                bOMEnterCriticalRegionNested
+ .bss           0x20012658        0xf platform/f7-disco-gcc/mcu/hal/uart.o
+                0x20012658                Uart::_sUart
+                0x20012664                Uart::_sInitialized
+ *fill*         0x20012667        0x1 
+ .bss           0x20012668       0x18 ui-gen/resources_manager.o
+ .bss           0x20012680       0x4c xf/port/default/resourcefactory-default.o
+ .bss           0x200126cc       0x1c xf/port/default/timeoutmanager-default.o
+ .bss           0x200126e8        0x2 xf/port/default/xf-default.o
+                0x200126e8                XF::_bInitialized
  *(.bss*)
- *fill*         0x2001336a        0x2 
+ *fill*         0x200126ea        0x2 
  .bss._ZN12_GLOBAL__N_113__new_handlerE
-                0x2001336c        0x4 c:/ac6/systemworkbench/plugins/fr.ac6.mcu.externaltools.arm-none.win32_1.17.0.201812190825/tools/compiler/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libstdc++_nano.a(new_handler.o)
+                0x200126ec        0x4 c:/ac6/systemworkbench/plugins/fr.ac6.mcu.externaltools.arm-none.win32_1.17.0.201812190825/tools/compiler/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libstdc++_nano.a(new_handler.o)
  .bss.__malloc_free_list
-                0x20013370        0x4 c:/ac6/systemworkbench/plugins/fr.ac6.mcu.externaltools.arm-none.win32_1.17.0.201812190825/tools/compiler/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libc_nano.a(lib_a-nano-mallocr.o)
-                0x20013370                __malloc_free_list
+                0x200126f0        0x4 c:/ac6/systemworkbench/plugins/fr.ac6.mcu.externaltools.arm-none.win32_1.17.0.201812190825/tools/compiler/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libc_nano.a(lib_a-nano-mallocr.o)
+                0x200126f0                __malloc_free_list
  .bss.__malloc_sbrk_start
-                0x20013374        0x4 c:/ac6/systemworkbench/plugins/fr.ac6.mcu.externaltools.arm-none.win32_1.17.0.201812190825/tools/compiler/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libc_nano.a(lib_a-nano-mallocr.o)
-                0x20013374                __malloc_sbrk_start
+                0x200126f4        0x4 c:/ac6/systemworkbench/plugins/fr.ac6.mcu.externaltools.arm-none.win32_1.17.0.201812190825/tools/compiler/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libc_nano.a(lib_a-nano-mallocr.o)
+                0x200126f4                __malloc_sbrk_start
  *(COMMON)
- COMMON         0x20013378        0x4 Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal.o
-                0x20013378                uwTick
- COMMON         0x2001337c      0x694 Src/main.o
-                0x2001337c                hsai_BlockB2
-                0x20013400                hi2c3
-                0x2001344c                hspi2
-                0x200134b0                htim8
-                0x200134f0                hspdif
-                0x2001353c                hsai_BlockA2
-                0x200135c0                hi2c1
-                0x2001360c                hcrc
-                0x20013630                htim5
-                0x20013670                htim3
-                0x200136b0                hltdc
-                0x20013758                hadc3
-                0x200137a0                hdcmi
-                0x200137f0                huart1
-                0x20013870                hrtc
-                0x20013890                htim1
-                0x200138d0                huart6
-                0x20013950                hdma2d
-                0x20013990                hsdram1
-                0x200139c4                hqspi
- COMMON         0x20013a10        0x4 mdw/ugfx/src/gdisp/gdisp.o
-                0x20013a10                GDISP
- COMMON         0x20013a14        0x4 mdw/ugfx/src/gos/gos_x_threads.o
-                0x20013a14                _gfxCurrentThread
- COMMON         0x20013a18        0x8 mdw/ugfx/src/gwin/gwin_wm.o
-                0x20013a18                _gwinFlashState
-                0x20013a1c                _GWINwm
- COMMON         0x20013a20       0x2c ui-gen/gui.o
-                0x20013a20                ghPushButtonTimeMinus
-                0x20013a24                ghPushButtonTrigger
-                0x20013a28                ghLabelTimeDiv
-                0x20013a2c                ghLabelTitle
-                0x20013a30                ghLabel
-                0x20013a34                ghGraph
-                0x20013a38                ghLabelSignalForm
-                0x20013a3c                ghPushButtonTimePlus
-                0x20013a40                ghRedLed
-                0x20013a44                ghLabelSignalFrequ
-                0x20013a48                ghPageContainerDp_oscilloscope
- COMMON         0x20013a4c       0x30 ui-gen/resources_manager.o
-                0x20013a4c                imgledredoff
-                0x20013a64                imgledredon
- COMMON         0x20013a7c        0x4 c:/ac6/systemworkbench/plugins/fr.ac6.mcu.externaltools.arm-none.win32_1.17.0.201812190825/tools/compiler/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libc_nano.a(lib_a-reent.o)
-                0x20013a7c                errno
-                0x20013a80                . = ALIGN (0x4)
-                0x20013a80                _ebss = .
-                0x20013a80                __bss_end__ = _ebss
+ COMMON         0x200126f8        0x4 Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal.o
+                0x200126f8                uwTick
+ COMMON         0x200126fc      0x694 Src/main.o
+                0x200126fc                hsai_BlockB2
+                0x20012780                hi2c3
+                0x200127cc                hspi2
+                0x20012830                htim8
+                0x20012870                hspdif
+                0x200128bc                hsai_BlockA2
+                0x20012940                hi2c1
+                0x2001298c                hcrc
+                0x200129b0                htim5
+                0x200129f0                htim3
+                0x20012a30                hltdc
+                0x20012ad8                hadc3
+                0x20012b20                hdcmi
+                0x20012b70                huart1
+                0x20012bf0                hrtc
+                0x20012c10                htim1
+                0x20012c50                huart6
+                0x20012cd0                hdma2d
+                0x20012d10                hsdram1
+                0x20012d44                hqspi
+ COMMON         0x20012d90        0x4 mdw/ugfx/src/gdisp/gdisp.o
+                0x20012d90                GDISP
+ COMMON         0x20012d94        0x4 mdw/ugfx/src/gos/gos_x_threads.o
+                0x20012d94                _gfxCurrentThread
+ COMMON         0x20012d98        0x8 mdw/ugfx/src/gwin/gwin_wm.o
+                0x20012d98                _gwinFlashState
+                0x20012d9c                _GWINwm
+ COMMON         0x20012da0       0x2c ui-gen/gui.o
+                0x20012da0                ghPushButtonTimeMinus
+                0x20012da4                ghPushButtonTrigger
+                0x20012da8                ghLabelTimeDiv
+                0x20012dac                ghLabelTitle
+                0x20012db0                ghLabel
+                0x20012db4                ghGraph
+                0x20012db8                ghLabelSignalForm
+                0x20012dbc                ghPushButtonTimePlus
+                0x20012dc0                ghRedLed
+                0x20012dc4                ghLabelSignalFrequ
+                0x20012dc8                ghPageContainerDp_oscilloscope
+ COMMON         0x20012dcc       0x30 ui-gen/resources_manager.o
+                0x20012dcc                imgledredoff
+                0x20012de4                imgledredon
+ COMMON         0x20012dfc        0x4 c:/ac6/systemworkbench/plugins/fr.ac6.mcu.externaltools.arm-none.win32_1.17.0.201812190825/tools/compiler/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libc_nano.a(lib_a-reent.o)
+                0x20012dfc                errno
+                0x20012e00                . = ALIGN (0x4)
+                0x20012e00                _ebss = .
+                0x20012e00                __bss_end__ = _ebss
 
 ._user_heap_stack
-                0x20013a80     0x2000 load address 0x08013f88
-                0x20013a80                . = ALIGN (0x8)
-                0x20013a80                PROVIDE (end = .)
+                0x20012e00     0x2000 load address 0x08013f88
+                0x20012e00                . = ALIGN (0x8)
+                0x20012e00                PROVIDE (end = .)
                 [!provide]                PROVIDE (_end = .)
-                0x20014a80                . = (. + _Min_Heap_Size)
- *fill*         0x20013a80     0x1000 
-                0x20015a80                . = (. + _Min_Stack_Size)
- *fill*         0x20014a80     0x1000 
-                0x20015a80                . = ALIGN (0x8)
+                0x20013e00                . = (. + _Min_Heap_Size)
+ *fill*         0x20012e00     0x1000 
+                0x20014e00                . = (. + _Min_Stack_Size)
+ *fill*         0x20013e00     0x1000 
+                0x20014e00                . = ALIGN (0x8)
 
 /DISCARD/
  libc.a(*)
@@ -30342,7 +30342,7 @@ OUTPUT(SWSTM32-Oscilloscope-521.elf elf32-littlearm)
  .debug_line    0x0005a31a      0xc1b xf/port/default-idf/mutex-default.o
  .debug_line    0x0005af35     0x1689 xf/port/idf-stm32cube/port-functions.o
 
-.debug_str      0x00000000   0x135ed0
+.debug_str      0x00000000   0x135ecf
  .debug_str     0x00000000    0xfbb4a Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal.o
                               0xfc369 (size before relaxing)
  .debug_str     0x000fbb4a      0x5a3 Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_adc.o
@@ -30399,139 +30399,139 @@ OUTPUT(SWSTM32-Oscilloscope-521.elf elf32-littlearm)
                               0xfc5fc (size before relaxing)
  .debug_str     0x00104207      0x394 Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_ll_fmc.o
                               0xfbee9 (size before relaxing)
- .debug_str     0x0010459b    0x10e0f Src/isrs.o
-                             0x10d11a (size before relaxing)
- .debug_str     0x001153aa      0x229 Src/main.o
+ .debug_str     0x0010459b    0x10e0e Src/isrs.o
+                             0x10d119 (size before relaxing)
+ .debug_str     0x001153a9      0x229 Src/main.o
                              0x100985 (size before relaxing)
- .debug_str     0x001155d3       0x7e Src/stm32f7xx_hal_msp.o
+ .debug_str     0x001155d2       0x7e Src/stm32f7xx_hal_msp.o
                               0xffe35 (size before relaxing)
- .debug_str     0x00115651      0x113 Src/stm32f7xx_it.o
+ .debug_str     0x00115650      0x113 Src/stm32f7xx_it.o
                               0xfe2da (size before relaxing)
- .debug_str     0x00115764      0xe5a Src/syscalls.o
+ .debug_str     0x00115763      0xe5a Src/syscalls.o
                                0x85cf (size before relaxing)
- .debug_str     0x001165be       0x5a Src/system_stm32f7xx.o
+ .debug_str     0x001165bd       0x5a Src/system_stm32f7xx.o
                               0xfba7a (size before relaxing)
- .debug_str     0x00116618      0x96c app/factory.o
-                             0x10da54 (size before relaxing)
- .debug_str     0x00116f84     0x5917 app/freqgencontroller.o
-                             0x112e87 (size before relaxing)
- .debug_str     0x0011c89b      0xa52 app/gui.o
+ .debug_str     0x00116617      0x96c app/factory.o
+                             0x10da53 (size before relaxing)
+ .debug_str     0x00116f83     0x5917 app/freqgencontroller.o
+                             0x112e86 (size before relaxing)
+ .debug_str     0x0011c89a      0xa52 app/gui.o
                              0x110352 (size before relaxing)
- .debug_str     0x0011d2ed      0x912 app/oscilloscopecontroller.o
-                             0x113219 (size before relaxing)
- .debug_str     0x0011dbff      0x269 event/evbuttonirq.o
+ .debug_str     0x0011d2ec      0x912 app/oscilloscopecontroller.o
+                             0x113218 (size before relaxing)
+ .debug_str     0x0011dbfe      0x269 event/evbuttonirq.o
                                0x7c01 (size before relaxing)
- .debug_str     0x0011de68      0x157 event/evbuttonpressed.o
+ .debug_str     0x0011de67      0x157 event/evbuttonpressed.o
                                0x7c6a (size before relaxing)
- .debug_str     0x0011dfbf     0x4699 mdw/ext-freqgen/frequencygenerator.o
+ .debug_str     0x0011dfbe     0x4699 mdw/ext-freqgen/frequencygenerator.o
                              0x109580 (size before relaxing)
- .debug_str     0x00122658      0x610 mdw/ugfx/boards/base/STM32F746-Discovery/stm32f746g_discovery_sdram.o
+ .debug_str     0x00122657      0x610 mdw/ugfx/boards/base/STM32F746-Discovery/stm32f746g_discovery_sdram.o
                              0x1029ab (size before relaxing)
- .debug_str     0x00122c68       0xcd mdw/ugfx/boards/base/STM32F746-Discovery/stm32f746g_raw32_ugfx.o
+ .debug_str     0x00122c67       0xcd mdw/ugfx/boards/base/STM32F746-Discovery/stm32f746g_raw32_ugfx.o
                              0x1017b0 (size before relaxing)
- .debug_str     0x00122d35      0x10e mdw/ugfx/boards/base/STM32F746-Discovery/stm32f7_i2c.o
+ .debug_str     0x00122d34      0x10e mdw/ugfx/boards/base/STM32F746-Discovery/stm32f7_i2c.o
                              0x1017d0 (size before relaxing)
- .debug_str     0x00122e43     0x229f mdw/ugfx/drivers/gdisp/STM32LTDC/gdisp_lld_STM32LTDC.o
+ .debug_str     0x00122e42     0x229f mdw/ugfx/drivers/gdisp/STM32LTDC/gdisp_lld_STM32LTDC.o
                              0x10681a (size before relaxing)
- .debug_str     0x001250e2     0x1331 mdw/ugfx/drivers/ginput/touch/FT5336/gmouse_lld_FT5336.o
+ .debug_str     0x001250e1     0x1331 mdw/ugfx/drivers/ginput/touch/FT5336/gmouse_lld_FT5336.o
                              0x102bd3 (size before relaxing)
- .debug_str     0x00126413     0x107f mdw/ugfx/src/gdisp/gdisp.o
+ .debug_str     0x00126412     0x107f mdw/ugfx/src/gdisp/gdisp.o
                                0xb44c (size before relaxing)
- .debug_str     0x00127492      0x16b mdw/ugfx/src/gdisp/gdisp_fonts.o
+ .debug_str     0x00127491      0x16b mdw/ugfx/src/gdisp/gdisp_fonts.o
                                0xa216 (size before relaxing)
- .debug_str     0x001275fd      0x92a mdw/ugfx/src/gdisp/gdisp_image.o
+ .debug_str     0x001275fc      0x92a mdw/ugfx/src/gdisp/gdisp_image.o
                                0xa678 (size before relaxing)
- .debug_str     0x00127f27      0x7a9 mdw/ugfx/src/gdisp/gdisp_image_png.o
+ .debug_str     0x00127f26      0x7a9 mdw/ugfx/src/gdisp/gdisp_image_png.o
                                0xacfb (size before relaxing)
- .debug_str     0x001286d0       0x93 mdw/ugfx/src/gdisp/mcufont/mf_encoding.o
+ .debug_str     0x001286cf       0x93 mdw/ugfx/src/gdisp/mcufont/mf_encoding.o
                                0x9f18 (size before relaxing)
- .debug_str     0x00128763      0x31b mdw/ugfx/src/gdisp/mcufont/mf_font.o
+ .debug_str     0x00128762      0x31b mdw/ugfx/src/gdisp/mcufont/mf_font.o
                                0xa410 (size before relaxing)
- .debug_str     0x00128a7e      0x100 mdw/ugfx/src/gdisp/mcufont/mf_justify.o
+ .debug_str     0x00128a7d      0x100 mdw/ugfx/src/gdisp/mcufont/mf_justify.o
                                0xa20f (size before relaxing)
- .debug_str     0x00128b7e      0x265 mdw/ugfx/src/gdisp/mcufont/mf_rlefont.o
+ .debug_str     0x00128b7d      0x265 mdw/ugfx/src/gdisp/mcufont/mf_rlefont.o
                                0xa339 (size before relaxing)
- .debug_str     0x00128de3       0xf9 mdw/ugfx/src/gdisp/mcufont/mf_scaledfont.o
+ .debug_str     0x00128de2       0xf9 mdw/ugfx/src/gdisp/mcufont/mf_scaledfont.o
                                0xa10a (size before relaxing)
- .debug_str     0x00128edc       0xe9 mdw/ugfx/src/gdriver/gdriver.o
+ .debug_str     0x00128edb       0xe9 mdw/ugfx/src/gdriver/gdriver.o
                                0xca93 (size before relaxing)
- .debug_str     0x00128fc5      0x239 mdw/ugfx/src/gevent/gevent.o
+ .debug_str     0x00128fc4      0x239 mdw/ugfx/src/gevent/gevent.o
                                0x9fe1 (size before relaxing)
- .debug_str     0x001291fe      0x31d mdw/ugfx/src/gfile/gfile.o
+ .debug_str     0x001291fd      0x31d mdw/ugfx/src/gfile/gfile.o
                                0xa03c (size before relaxing)
- .debug_str     0x0012951b      0x1c6 mdw/ugfx/src/gfile/gfile_fs_rom.o
+ .debug_str     0x0012951a      0x1c6 mdw/ugfx/src/gfile/gfile_fs_rom.o
                                0xcc53 (size before relaxing)
- .debug_str     0x001296e1      0x115 mdw/ugfx/src/gfx.o
+ .debug_str     0x001296e0      0x115 mdw/ugfx/src/gfx.o
                                0x9e16 (size before relaxing)
- .debug_str     0x001297f6       0x7e mdw/ugfx/src/ginput/ginput.o
+ .debug_str     0x001297f5       0x7e mdw/ugfx/src/ginput/ginput.o
                                0x9d39 (size before relaxing)
- .debug_str     0x00129874      0x4a4 mdw/ugfx/src/ginput/ginput_mouse.o
+ .debug_str     0x00129873      0x4a4 mdw/ugfx/src/ginput/ginput_mouse.o
                                0xd3fc (size before relaxing)
- .debug_str     0x00129d18       0xb5 mdw/ugfx/src/gos/gos_raw32.o
+ .debug_str     0x00129d17       0xb5 mdw/ugfx/src/gos/gos_raw32.o
                                0x9d8b (size before relaxing)
- .debug_str     0x00129dcd      0x186 mdw/ugfx/src/gos/gos_x_heap.o
+ .debug_str     0x00129dcc      0x186 mdw/ugfx/src/gos/gos_x_heap.o
                                0xc9df (size before relaxing)
- .debug_str     0x00129f53      0x234 mdw/ugfx/src/gos/gos_x_threads.o
+ .debug_str     0x00129f52      0x234 mdw/ugfx/src/gos/gos_x_threads.o
                                0xa030 (size before relaxing)
- .debug_str     0x0012a187      0x17a mdw/ugfx/src/gqueue/gqueue.o
+ .debug_str     0x0012a186      0x17a mdw/ugfx/src/gqueue/gqueue.o
                                0x9e7b (size before relaxing)
- .debug_str     0x0012a301      0x1c3 mdw/ugfx/src/gtimer/gtimer.o
+ .debug_str     0x0012a300      0x1c3 mdw/ugfx/src/gtimer/gtimer.o
                                0xa034 (size before relaxing)
- .debug_str     0x0012a4c4      0x735 mdw/ugfx/src/gwin/gwin.o
+ .debug_str     0x0012a4c3      0x735 mdw/ugfx/src/gwin/gwin.o
                                0xd287 (size before relaxing)
- .debug_str     0x0012abf9      0x1cd mdw/ugfx/src/gwin/gwin_button.o
+ .debug_str     0x0012abf8      0x1cd mdw/ugfx/src/gwin/gwin_button.o
                                0xa4a8 (size before relaxing)
- .debug_str     0x0012adc6      0x1ab mdw/ugfx/src/gwin/gwin_container.o
+ .debug_str     0x0012adc5      0x1ab mdw/ugfx/src/gwin/gwin_container.o
                                0xa494 (size before relaxing)
- .debug_str     0x0012af71      0x176 mdw/ugfx/src/gwin/gwin_graph.o
+ .debug_str     0x0012af70      0x176 mdw/ugfx/src/gwin/gwin_graph.o
                                0xa542 (size before relaxing)
- .debug_str     0x0012b0e7       0xd8 mdw/ugfx/src/gwin/gwin_image.o
+ .debug_str     0x0012b0e6       0xd8 mdw/ugfx/src/gwin/gwin_image.o
                                0xa32e (size before relaxing)
- .debug_str     0x0012b1bf      0x17d mdw/ugfx/src/gwin/gwin_label.o
+ .debug_str     0x0012b1be      0x17d mdw/ugfx/src/gwin/gwin_label.o
                                0xa4ea (size before relaxing)
- .debug_str     0x0012b33c      0x1dc mdw/ugfx/src/gwin/gwin_widget.o
+ .debug_str     0x0012b33b      0x1dc mdw/ugfx/src/gwin/gwin_widget.o
                                0xd193 (size before relaxing)
- .debug_str     0x0012b518      0x270 mdw/ugfx/src/gwin/gwin_wm.o
+ .debug_str     0x0012b517      0x270 mdw/ugfx/src/gwin/gwin_wm.o
                                0xa6d1 (size before relaxing)
- .debug_str     0x0012b788      0xc77 platform/f7-disco-gcc/board/buttonscontroller.o
+ .debug_str     0x0012b787      0xc77 platform/f7-disco-gcc/board/buttonscontroller.o
                              0x108292 (size before relaxing)
- .debug_str     0x0012c3ff      0x1e0 platform/f7-disco-gcc/board/trace.o
+ .debug_str     0x0012c3fe      0x1e0 platform/f7-disco-gcc/board/trace.o
                              0x109303 (size before relaxing)
- .debug_str     0x0012c5df       0x99 platform/f7-disco-gcc/ext-26pin/ext_26pin.o
+ .debug_str     0x0012c5de       0x99 platform/f7-disco-gcc/ext-26pin/ext_26pin.o
                               0xfbf77 (size before relaxing)
- .debug_str     0x0012c678      0x112 platform/f7-disco-gcc/mcu/critical/critical.o
+ .debug_str     0x0012c677      0x112 platform/f7-disco-gcc/mcu/critical/critical.o
                              0x10926e (size before relaxing)
- .debug_str     0x0012c78a      0x221 platform/f7-disco-gcc/mcu/hal/uart.o
+ .debug_str     0x0012c789      0x221 platform/f7-disco-gcc/mcu/hal/uart.o
                              0x1049ad (size before relaxing)
- .debug_str     0x0012c9ab       0x2f startup/startup_stm32f746xx.o
+ .debug_str     0x0012c9aa       0x2f startup/startup_stm32f746xx.o
                                  0x77 (size before relaxing)
- .debug_str     0x0012c9da      0x107 ui-gen/gui.o
+ .debug_str     0x0012c9d9      0x107 ui-gen/gui.o
                                0xa10a (size before relaxing)
- .debug_str     0x0012cae1       0xcc ui-gen/resources_manager.o
+ .debug_str     0x0012cae0       0xcc ui-gen/resources_manager.o
                                0x9eda (size before relaxing)
- .debug_str     0x0012cbad      0x372 xf/core/behavior.o
+ .debug_str     0x0012cbac      0x372 xf/core/behavior.o
                                0xd5ee (size before relaxing)
- .debug_str     0x0012cf1f       0xc9 xf/core/customevent.o
+ .debug_str     0x0012cf1e       0xc9 xf/core/customevent.o
                                0x7b5d (size before relaxing)
- .debug_str     0x0012cfe8      0x148 xf/core/initialevent.o
+ .debug_str     0x0012cfe7      0x148 xf/core/initialevent.o
                                0x3506 (size before relaxing)
- .debug_str     0x0012d130      0x18c xf/core/nulltransition.o
+ .debug_str     0x0012d12f      0x18c xf/core/nulltransition.o
                                0x7b28 (size before relaxing)
- .debug_str     0x0012d2bc      0x229 xf/core/timeout.o
+ .debug_str     0x0012d2bb      0x229 xf/core/timeout.o
                                0x35fc (size before relaxing)
- .debug_str     0x0012d4e5      0x929 xf/port/default/dispatcher-default.o
+ .debug_str     0x0012d4e4      0x929 xf/port/default/dispatcher-default.o
                                0xd998 (size before relaxing)
- .debug_str     0x0012de0e      0x563 xf/port/default/resourcefactory-default.o
+ .debug_str     0x0012de0d      0x563 xf/port/default/resourcefactory-default.o
                                0x7ddf (size before relaxing)
- .debug_str     0x0012e371     0x3be3 xf/port/default/timeoutmanager-default.o
+ .debug_str     0x0012e370     0x3be3 xf/port/default/timeoutmanager-default.o
                               0x15b7b (size before relaxing)
- .debug_str     0x00131f54       0xf0 xf/port/default/xf-default.o
+ .debug_str     0x00131f53       0xf0 xf/port/default/xf-default.o
                                0x7f45 (size before relaxing)
- .debug_str     0x00132044     0x3bd3 xf/port/default-idf/eventqueue-default.o
+ .debug_str     0x00132043     0x3bd3 xf/port/default-idf/eventqueue-default.o
                                0xbb9f (size before relaxing)
- .debug_str     0x00135c17      0x249 xf/port/default-idf/mutex-default.o
+ .debug_str     0x00135c16      0x249 xf/port/default-idf/mutex-default.o
                                0x7a48 (size before relaxing)
- .debug_str     0x00135e60       0x70 xf/port/idf-stm32cube/port-functions.o
+ .debug_str     0x00135e5f       0x70 xf/port/idf-stm32cube/port-functions.o
                              0x104d3c (size before relaxing)
 
 .comment        0x00000000       0x7f
