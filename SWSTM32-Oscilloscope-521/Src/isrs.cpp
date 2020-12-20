@@ -17,27 +17,6 @@ extern "C" void HAL_ADC_ConvCpltCallback(ADC_HandleTypeDef* AdcHandle)
 {
 	static uint32_t index=0;
     adcVal = HAL_ADC_GetValue(AdcHandle);
-    if(Factory::getOscilloscopeController().getTrigger()){
-    	if (index == 0){
-    		for (uint32_t i = index; i < ADC_VALUES_BUFFER_SIZE-1; i++){
-    			if (Factory::adcValuesBuffer[ADC_VALUES_BUFFER_SIZE-1]>
-    			Factory::adcValuesBuffer[ADC_VALUES_BUFFER_SIZE-2]){
-        			if ((Factory::adcValuesBuffer[ADC_VALUES_BUFFER_SIZE-1] < adcVal) &&
-        					(adcVal < Factory::adcValuesBuffer[i+2])){
-        				index = i;
-        				break;
-        			}
-    			}
-    			else{
-        			if ((Factory::adcValuesBuffer[ADC_VALUES_BUFFER_SIZE-1] > adcVal) &&
-        					(adcVal > Factory::adcValuesBuffer[i+2])){
-        				index = i;
-        				break;
-        			}
-    			}
-    		}
-    	}
-    }
 	Factory::adcValuesBuffer[index] = adcVal;
 	index++;
 	if (index == ADC_VALUES_BUFFER_SIZE){

@@ -5,7 +5,9 @@
 #include "gui.h"
 #include "sig-gen/pwmgenerator.h"
 #include "oscilloscopecontroller.h"
-
+#include <stdio.h>
+#include <string.h>
+#include "factory.h"
 namespace oscilloscope {
 
 Controller * Controller::_pInstance(nullptr);
@@ -98,6 +100,7 @@ void Controller::onButtonTriggerOff(){
 
 void Controller::doShowAnalogSignal()
 {
+
     // TODO: Call gui().drawGraphPoints() with the appropriate data.
 	uint32_t numberOfSample=0;
 	uint8_t numberOfScale = 8;
@@ -128,7 +131,23 @@ void Controller::doShowAnalogSignal()
 		break;
 	}
 
-	gui().drawGraphPoints(_adcValuesBuffer,numberOfSample,scale);
+    if(getTrigger()){
+    	static unsigned short int tabTrig[ADC_VALUES_BUFFER_SIZE];
+    	static uint32_t index = 0;
+    	static uint32_t triggerValue = 2048;
+    	for (int i = 1; i < 1600; i++){
+    		if ((_adcValuesBuffer[i-1] < triggerValue)&&(triggerValue < _adcValuesBuffer[i])){
+    			index = i;
+    			break;
+    		}
+    	}
+    	memcpy(tabTrig, _adcValuesBuffer+index, sizeof(uint16_t)*ADC_VALUES_BUFFER_SIZE);
+    	gui().drawGraphPoints(tabTrig,numberOfSample,scale);
+    }
+    else{
+    	gui().drawGraphPoints(_adcValuesBuffer,numberOfSample,scale);
+    }
+
 }
 
 std::string Controller::getText(TDivValue tdivValue)

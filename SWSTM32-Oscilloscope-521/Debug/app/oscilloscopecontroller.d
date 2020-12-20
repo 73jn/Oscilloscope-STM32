@@ -137,7 +137,19 @@ app/oscilloscopecontroller.o: \
  C:/Users/jeann/cpp/Oscilloscope-work-521/work/RealtimeOscilloscope/src/mdw/sig-gen/pwmgenerator.h \
  C:/Users/jeann/cpp/Oscilloscope-work-521/work/RealtimeOscilloscope/src/config/siggen-pwmgenerator-config.h \
  C:/Users/jeann/cpp/Oscilloscope-work-521/work/RealtimeOscilloscope/src/platform/f7-disco-gcc/mcu/mcu.h \
- C:/Users/jeann/cpp/Oscilloscope-work-521/work/RealtimeOscilloscope/src/app/oscilloscopecontroller.h
+ C:/Users/jeann/cpp/Oscilloscope-work-521/work/RealtimeOscilloscope/src/app/oscilloscopecontroller.h \
+ C:/Users/jeann/cpp/Oscilloscope-work-521/work/RealtimeOscilloscope/src/app/factory.h \
+ C:/Users/jeann/cpp/Oscilloscope-work-521/work/RealtimeOscilloscope/src/mdw/sig-gen/pwmgenerator.h \
+ C:/Users/jeann/cpp/Oscilloscope-work-521/work/RealtimeOscilloscope/src/mdw/ext-freqgen/frequencygenerator.h \
+ C:/Users/jeann/cpp/Oscilloscope-work-521/work/RealtimeOscilloscope/src/platform/f7-disco-gcc/ext-26pin/ext_26pin.h \
+ C:/Users/jeann/cpp/Oscilloscope-work-521/work/RealtimeOscilloscope/src/app/freqgencontroller.h \
+ C:/Users/jeann/cpp/Oscilloscope-work-521/work/RealtimeOscilloscope/src/config/ext-freqgen-config.h \
+ C:/Users/jeann/cpp/Oscilloscope-work-521/work/RealtimeOscilloscope/src/platform/f7-disco-gcc/board/interface/buttonscontrollercallbackprovider.h \
+ C:/Users/jeann/cpp/Oscilloscope-work-521/work/RealtimeOscilloscope/src/platform/f7-disco-gcc/board/buttonscontroller.h \
+ C:/Users/jeann/cpp/Oscilloscope-work-521/work/RealtimeOscilloscope/src/config/buttonscontroller-config.h \
+ C:/Users/jeann/cpp/Oscilloscope-work-521/work/RealtimeOscilloscope/src/platform/f7-disco-gcc/board/interface/buttonirq.h \
+ C:/Users/jeann/cpp/Oscilloscope-work-521/work/RealtimeOscilloscope/src/platform/f7-disco-gcc/board/interface/buttonscontrollercallbackcaller.h \
+ C:/Users/jeann/cpp/Oscilloscope-work-521/work/RealtimeOscilloscope/src/platform/f7-disco-gcc/board/interface/buttonscontrollercallbackprovider.h
 
 C:/Users/jeann/cpp/Oscilloscope-work-521/work/RealtimeOscilloscope/src/mdw/trace/trace.h:
 
@@ -414,3 +426,27 @@ C:/Users/jeann/cpp/Oscilloscope-work-521/work/RealtimeOscilloscope/src/config/si
 C:/Users/jeann/cpp/Oscilloscope-work-521/work/RealtimeOscilloscope/src/platform/f7-disco-gcc/mcu/mcu.h:
 
 C:/Users/jeann/cpp/Oscilloscope-work-521/work/RealtimeOscilloscope/src/app/oscilloscopecontroller.h:
+
+C:/Users/jeann/cpp/Oscilloscope-work-521/work/RealtimeOscilloscope/src/app/factory.h:
+
+C:/Users/jeann/cpp/Oscilloscope-work-521/work/RealtimeOscilloscope/src/mdw/sig-gen/pwmgenerator.h:
+
+C:/Users/jeann/cpp/Oscilloscope-work-521/work/RealtimeOscilloscope/src/mdw/ext-freqgen/frequencygenerator.h:
+
+C:/Users/jeann/cpp/Oscilloscope-work-521/work/RealtimeOscilloscope/src/platform/f7-disco-gcc/ext-26pin/ext_26pin.h:
+
+C:/Users/jeann/cpp/Oscilloscope-work-521/work/RealtimeOscilloscope/src/app/freqgencontroller.h:
+
+C:/Users/jeann/cpp/Oscilloscope-work-521/work/RealtimeOscilloscope/src/config/ext-freqgen-config.h:
+
+C:/Users/jeann/cpp/Oscilloscope-work-521/work/RealtimeOscilloscope/src/platform/f7-disco-gcc/board/interface/buttonscontrollercallbackprovider.h:
+
+C:/Users/jeann/cpp/Oscilloscope-work-521/work/RealtimeOscilloscope/src/platform/f7-disco-gcc/board/buttonscontroller.h:
+
+C:/Users/jeann/cpp/Oscilloscope-work-521/work/RealtimeOscilloscope/src/config/buttonscontroller-config.h:
+
+C:/Users/jeann/cpp/Oscilloscope-work-521/work/RealtimeOscilloscope/src/platform/f7-disco-gcc/board/interface/buttonirq.h:
+
+C:/Users/jeann/cpp/Oscilloscope-work-521/work/RealtimeOscilloscope/src/platform/f7-disco-gcc/board/interface/buttonscontrollercallbackcaller.h:
+
+C:/Users/jeann/cpp/Oscilloscope-work-521/work/RealtimeOscilloscope/src/platform/f7-disco-gcc/board/interface/buttonscontrollercallbackprovider.h:
