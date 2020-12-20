@@ -135,7 +135,7 @@ void Controller::doShowAnalogSignal()
     	static unsigned short int tabTrig[ADC_VALUES_BUFFER_SIZE];
     	static uint32_t index = 0;
     	static uint32_t triggerValue = 2048;
-    	for (int i = 1; i < 1600; i++){
+    	for (int i = 1; i < ADC_VALUES_BUFFER_SIZE; i++){
     		if ((_adcValuesBuffer[i-1] < triggerValue)&&(triggerValue < _adcValuesBuffer[i])){
     			index = i;
     			break;
