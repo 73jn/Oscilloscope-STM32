@@ -131,10 +131,12 @@ void Gui::setRedLed(bool enable)
 
     if (enable)
     {
+        _pGuiObserver->onButtonTriggerOn();
         gwinImageOpenFile(ghRedLed, gstudioGetImageFilePath(ledredon));
     }
     else
     {
+        _pGuiObserver->onButtonTriggerOff();
         gwinImageOpenFile(ghRedLed, gstudioGetImageFilePath(ledredoff));
     }
 }

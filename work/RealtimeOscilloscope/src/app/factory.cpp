@@ -5,14 +5,14 @@
 
 extern "C" TIM_HandleTypeDef htim1;         // Defined in main.c
 extern "C" ADC_HandleTypeDef hadc3;         // Defined in main.c
-#define ADC_VALUES_BUFFER_SIZE 1000
-extern unsigned short int adcValuesBuffer[ADC_VALUES_BUFFER_SIZE];
+
 
 oscilloscope::Controller Factory::_oscilloscopeController;
 oscilloscope::Gui Factory::_gui;
 external::FrequencyGenerator Factory::_fgen;
 oscilloscope::FreqGenController Factory::_fgenctrl;
 ButtonsController Factory::_bc;
+unsigned short int Factory::adcValuesBuffer[ADC_VALUES_BUFFER_SIZE];
 
 void Factory_initialize()
 {

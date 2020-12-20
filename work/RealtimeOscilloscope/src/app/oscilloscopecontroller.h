@@ -48,6 +48,8 @@ public:
 
 	inline TDivValue getTDivValue() const { return _tdivValue; }
 
+	inline bool getTrigger() const {return isTriggered; }
+
 	// XFReactive interface implementation
 protected:
 	XFEventStatus processEvent() override;
@@ -56,7 +58,10 @@ protected:
 protected:
     void onButtonTimePlusPressed() override;
     void onButtonTimeMinusPressed() override;
+    void onButtonTriggerOn() override;
+    void onButtonTriggerOff() override;
     uint32_t getTDivCount() const override { return 8; };
+
 
 protected:
 	void doShowAnalogSignal();
@@ -77,6 +82,8 @@ protected:
 	TDivValue _tdivValue;
 
 	static const TDivOption _tdivOptions[];
+
+	bool isTriggered = false;
 };
 
 }   // namespace oscilloscope

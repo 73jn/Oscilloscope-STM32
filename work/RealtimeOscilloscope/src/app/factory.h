@@ -5,7 +5,6 @@
 // What is seen only by the C++ compiler
 //
 #ifdef __cplusplus
-
 #include "main.h"
 #include "oscilloscopecontroller.h"
 #include "gui.h"
@@ -21,6 +20,8 @@ using external::FrequencyGenerator;
 class Factory
 {
 public:
+	#define ADC_VALUES_BUFFER_SIZE 1600
+	static unsigned short int adcValuesBuffer[ADC_VALUES_BUFFER_SIZE];
     Factory();                          ///< Constructor
 
     static void initialize();           ///< Initializes the factory

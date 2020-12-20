@@ -89,10 +89,46 @@ void Controller::onButtonTimeMinusPressed()
         gui().setTimeDivisionText(getText(_tdivValue));
     }
 }
+void Controller::onButtonTriggerOn(){
+	isTriggered = true;
+}
+void Controller::onButtonTriggerOff(){
+	isTriggered = false;
+}
 
 void Controller::doShowAnalogSignal()
 {
     // TODO: Call gui().drawGraphPoints() with the appropriate data.
+	uint32_t numberOfSample=0;
+	uint8_t numberOfScale = 8;
+    float scale = 448;
+	switch (_tdivValue){
+
+	case TDIV_500us:
+		numberOfSample = numberOfScale * 5; //Nombre de scale * le nombre d'échantillon par scale =5 pour 0.5ms
+		scale = (scale / (float)numberOfSample);
+		break;
+	case TDIV_1ms:
+		numberOfSample = numberOfScale * 10; //Nombre de scale * le nombre d'échantillon par scale =10 pour 1ms
+		scale = (scale / (float)numberOfSample);
+		break;
+	case TDIV_2ms:
+		numberOfSample = numberOfScale * 20; //Nombre de scale * le nombre d'échantillon par scale =20 pour 2ms
+		scale = (scale / (float)numberOfSample);
+		break;
+	case TDIV_5ms:
+		numberOfSample = numberOfScale * 50; //Nombre de scale * le nombre d'échantillon par scale =50 pour 5ms
+		scale = (scale / (float)numberOfSample);
+		break;
+	case TDIV_10ms:
+		numberOfSample = numberOfScale * 100; //Nombre de scale * le nombre d'échantillon par scale =100 pour 10ms
+		scale = (scale / (float)numberOfSample);
+		break;
+	default:
+		break;
+	}
+
+	gui().drawGraphPoints(_adcValuesBuffer,numberOfSample,scale);
 }
 
 std::string Controller::getText(TDivValue tdivValue)

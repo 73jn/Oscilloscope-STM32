@@ -10,6 +10,8 @@ public:
 
     virtual void onButtonTimePlusPressed() = 0;
     virtual void onButtonTimeMinusPressed() = 0;
+    virtual void onButtonTriggerOff() = 0;
+    virtual void onButtonTriggerOn() = 0;
 
     virtual uint32_t getTDivCount() const = 0;      // Returns the of x-axis grid count
 
